@@ -203,7 +203,6 @@ nav a {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
 	width: 12.5%;
 	height: 100px;
@@ -243,7 +242,21 @@ nav a {
 .box10 {
 	background: dodgerblue;
 }
-
+.about-content-container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+.about-page h2,
+.about-page h3 {
+	margin: 15px 0;
+}
+.about-box {
+	width: 45%;
+	border-bottom: 1px dashed black;
+	margin-left: 20px;
+	padding: 25px 0 40px 0;
+}
 .bottom-content {
 	display: flex;
 	margin: 0 2% 20px;
