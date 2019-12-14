@@ -166,13 +166,17 @@ header {
 nav {
 	display: flex;
 	justify-content: space-evenly;
-	width: 80%;
+	width: 100%;
 }
 nav a {
 	color: #333;
 	padding: 20px;
 	align-items: center;
 	text-decoration: none;
+}
+nav a:hover {
+	background: indigo;
+	color: #ddd;
 }
 .top-content {
 	display: flex;
@@ -187,7 +191,11 @@ nav a {
 	padding: 0 1%;
 	padding: 20px 0;
 }
-
+.about-intro {
+	width: 100%;
+	border-bottom: 1px dashed black;
+	padding: 20px;
+}
 .middle-content {
 	margin-bottom: 20px;
 	border-bottom: 1px dashed black;
@@ -246,16 +254,33 @@ nav a {
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
+	justify-content: space-evenly;
 }
 .about-page h2,
 .about-page h3 {
 	margin: 15px 0;
 }
 .about-box {
-	width: 45%;
+	width: 47%;
 	border-bottom: 1px dashed black;
-	margin-left: 20px;
-	padding: 25px 0 40px 0;
+	padding: 20px 0;
+}
+.about-box button {
+	border: 2px solid #333;
+	border-radius: 10px;
+	padding: 7px 25px;
+	margin-top: 20px;
+	font-size: 1em;
+}
+.about-box button:hover {
+	cursor: pointer;
+	background: indigo;
+	color: #ddd;
+}
+.about-closing {
+	width: 95%;
+	margin: 50px 0;
+	padding-left: 20px;
 }
 .bottom-content {
 	display: flex;
