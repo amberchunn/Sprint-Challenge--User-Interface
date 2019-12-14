@@ -220,6 +220,10 @@ nav a:hover {
 	align-items: center;
 	justify-content: center;
 }
+.middle-content .box:hover {
+	transform: rotate(0.75turn);
+	cursor: pointer;
+}
 .box1 {
 	background: teal;
 }
@@ -295,7 +299,36 @@ nav a:hover {
 .bottom-content .text-container:last-child {
 	padding-right: 0;
 }
-
+form {
+	margin: 50px 0;
+}
+fieldset {
+	width: 80%;
+	display: flex;
+	justify-content: first baseline;
+	align-items: center;
+	font-size: 1.5em;
+	color: #333;
+}
+input,
+textarea,
+button {
+	border: 1px solid #333;
+	padding: 10px;
+	width: 100%;
+}
+form label {
+	margin: 15px 0;
+}
+button {
+	margin-top: 20px;
+	text-align: center;
+}
+button:hover {
+	background: indigo;
+	color: #ddd;
+	cursor: pointer;
+}
 footer {
 	width: 100%;
 	background: black;
